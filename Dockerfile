@@ -11,3 +11,4 @@ WORKDIR /usr/ffmpegtar/x264
 RUN ./configure --enable-shared --prefix=/usr/ffmpegtar/ffmpeg
 RUN make
 RUN make install
+ 
